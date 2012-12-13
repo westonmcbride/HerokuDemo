@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "AFNetworkActivityIndicatorManager.h"
+#import "TasksVC.h"
 
 @implementation AppDelegate
 
@@ -19,12 +20,13 @@
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:8 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
-    [NSURLCache setSharedURLCache:URLCache];
+//    NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:8 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
+//    [NSURLCache setSharedURLCache:URLCache];
+//    
+//    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
     
-    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
-    
-    UIViewController *viewController = [[UITableViewController alloc] initWithStyle:UITableViewStylePlain];
+    TasksVC *viewController = [[TasksVC alloc] init];
+	viewController.managedObjectContext = self.managedObjectContext;
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

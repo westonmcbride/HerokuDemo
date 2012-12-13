@@ -1,838 +1,390 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>099FA2AB8B984C508AC81942</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>37138F56B4A9493A820FB892</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6D1F9084E64645B5AB9F986F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>1</string>
-		</dict>
-		<key>6EF71CC76A4740B6827F6E6D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>099FA2AB8B984C508AC81942</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>7CD2415016792E8900E4E550</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CD2416716792E8A00E4E550</string>
-				<string>7CD2415E16792E8900E4E550</string>
-				<string>7CD2415C16792E8900E4E550</string>
-				<string>37138F56B4A9493A820FB892</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2415216792E8900E4E550</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>WM</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>7CD2415516792E8900E4E550</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7CD2415016792E8900E4E550</string>
-			<key>productRefGroup</key>
-			<string>7CD2415C16792E8900E4E550</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>7CD2415A16792E8900E4E550</string>
-			</array>
-		</dict>
-		<key>7CD2415516792E8900E4E550</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7CD2418616792E8A00E4E550</string>
-				<string>7CD2418716792E8A00E4E550</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7CD2415716792E8900E4E550</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7CD2416F16792E8A00E4E550</string>
-				<string>7CD2417516792E8A00E4E550</string>
-				<string>7CD2417816792E8A00E4E550</string>
-				<string>7CD2418216792E8A00E4E550</string>
-				<string>7CD2418516792E8A00E4E550</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7CD2415816792E8900E4E550</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7CD2416016792E8900E4E550</string>
-				<string>7CD2416216792E8900E4E550</string>
-				<string>7CD2416416792E8900E4E550</string>
-				<string>7CD2416616792E8900E4E550</string>
-				<string>6EF71CC76A4740B6827F6E6D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7CD2415916792E8900E4E550</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7CD2416916792E8A00E4E550</string>
-				<string>7CD2417316792E8A00E4E550</string>
-				<string>7CD2417A16792E8A00E4E550</string>
-				<string>7CD2417C16792E8A00E4E550</string>
-				<string>7CD2417E16792E8A00E4E550</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7CD2415A16792E8900E4E550</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7CD2418816792E8A00E4E550</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7CD2415716792E8900E4E550</string>
-				<string>7CD2415816792E8900E4E550</string>
-				<string>7CD2415916792E8900E4E550</string>
-				<string>6D1F9084E64645B5AB9F986F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>AFHeroTest</string>
-			<key>productName</key>
-			<string>AFHeroTest</string>
-			<key>productReference</key>
-			<string>7CD2415B16792E8900E4E550</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>7CD2415B16792E8900E4E550</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>AFHeroTest.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7CD2415C16792E8900E4E550</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CD2415B16792E8900E4E550</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2415E16792E8900E4E550</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CD2415F16792E8900E4E550</string>
-				<string>7CD2416116792E8900E4E550</string>
-				<string>7CD2416316792E8900E4E550</string>
-				<string>7CD2416516792E8900E4E550</string>
-				<string>099FA2AB8B984C508AC81942</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2415F16792E8900E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>7CD2416016792E8900E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2415F16792E8900E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2416116792E8900E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>7CD2416216792E8900E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2416116792E8900E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2416316792E8900E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>7CD2416416792E8900E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2416316792E8900E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2416516792E8900E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreData.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreData.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>7CD2416616792E8900E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2416516792E8900E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2416716792E8A00E4E550</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CD2416816792E8A00E4E550</string>
-				<string>7CD2417616792E8A00E4E550</string>
-				<string>7CD2417716792E8A00E4E550</string>
-				<string>7CD2416C16792E8A00E4E550</string>
-				<string>7CD2417F16792E8A00E4E550</string>
-				<string>7CD2416A16792E8A00E4E550</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>AFHeroTest</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2416816792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2416916792E8A00E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2416816792E8A00E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2416A16792E8A00E4E550</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CD2416B16792E8A00E4E550</string>
-				<string>7CD2417016792E8A00E4E550</string>
-				<string>7CD2417116792E8A00E4E550</string>
-				<string>7CD2417416792E8A00E4E550</string>
-				<string>7CD2417916792E8A00E4E550</string>
-				<string>7CD2417B16792E8A00E4E550</string>
-				<string>7CD2417D16792E8A00E4E550</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2416B16792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AFHeroTest-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2416C16792E8A00E4E550</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CD2416D16792E8A00E4E550</string>
-				<string>7CD2416E16792E8A00E4E550</string>
-				<string>7CD2418316792E8A00E4E550</string>
-				<string>7CD2418416792E8A00E4E550</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Networking</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2416D16792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFHeroTestAPIClient.h</string>
-			<key>path</key>
-			<string>Classes/AFHeroTestAPIClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2416E16792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFHeroTestAPIClient.m</string>
-			<key>path</key>
-			<string>Classes/AFHeroTestAPIClient.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2416F16792E8A00E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2416E16792E8A00E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2417016792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>AFHeroTest-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2417116792E8A00E4E550</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CD2417216792E8A00E4E550</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2417216792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2417316792E8A00E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2417116792E8A00E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2417416792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2417516792E8A00E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2417416792E8A00E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2417616792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2417716792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2417816792E8A00E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2417716792E8A00E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2417916792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2417A16792E8A00E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2417916792E8A00E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2417B16792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2417C16792E8A00E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2417B16792E8A00E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2417D16792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default-568h@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2417E16792E8A00E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2417D16792E8A00E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2417F16792E8A00E4E550</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CD2418016792E8A00E4E550</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Models</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2418016792E8A00E4E550</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CD2418116792E8A00E4E550</string>
-			</array>
-			<key>currentVersion</key>
-			<string>7CD2418116792E8A00E4E550</string>
-			<key>isa</key>
-			<string>XCVersionGroup</string>
-			<key>path</key>
-			<string>AFHeroTest.xcdatamodeld</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>versionGroupType</key>
-			<string>wrapper.xcdatamodel</string>
-		</dict>
-		<key>7CD2418116792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.xcdatamodel</string>
-			<key>path</key>
-			<string>AFHeroTest.xcdatamodel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2418216792E8A00E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2418016792E8A00E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2418316792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFHeroTestIncrementalStore.h</string>
-			<key>path</key>
-			<string>Classes/AFHeroTestIncrementalStore.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2418416792E8A00E4E550</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFHeroTestIncrementalStore.m</string>
-			<key>path</key>
-			<string>Classes/AFHeroTestIncrementalStore.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD2418516792E8A00E4E550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD2418416792E8A00E4E550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CD2418616792E8A00E4E550</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7CD2418716792E8A00E4E550</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7CD2418816792E8A00E4E550</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7CD2418916792E8A00E4E550</string>
-				<string>7CD2418A16792E8A00E4E550</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7CD2418916792E8A00E4E550</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>37138F56B4A9493A820FB892</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>AFHeroTest/AFHeroTest-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>AFHeroTest/AFHeroTest-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7CD2418A16792E8A00E4E550</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>37138F56B4A9493A820FB892</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>AFHeroTest/AFHeroTest-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>AFHeroTest/AFHeroTest-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>7CD2415216792E8900E4E550</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CD2416016792E8900E4E550 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD2415F16792E8900E4E550 /* UIKit.framework */; };
+		7CD2416216792E8900E4E550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD2416116792E8900E4E550 /* Foundation.framework */; };
+		7CD2416416792E8900E4E550 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD2416316792E8900E4E550 /* CoreGraphics.framework */; };
+		7CD2416616792E8900E4E550 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD2416516792E8900E4E550 /* CoreData.framework */; };
+		7CD2416916792E8A00E4E550 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7CD2416816792E8A00E4E550 /* Podfile */; };
+		7CD2416F16792E8A00E4E550 /* AFHeroTestAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2416E16792E8A00E4E550 /* AFHeroTestAPIClient.m */; };
+		7CD2417316792E8A00E4E550 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CD2417116792E8A00E4E550 /* InfoPlist.strings */; };
+		7CD2417516792E8A00E4E550 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2417416792E8A00E4E550 /* main.m */; };
+		7CD2417816792E8A00E4E550 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2417716792E8A00E4E550 /* AppDelegate.m */; };
+		7CD2417A16792E8A00E4E550 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD2417916792E8A00E4E550 /* Default.png */; };
+		7CD2417C16792E8A00E4E550 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD2417B16792E8A00E4E550 /* Default@2x.png */; };
+		7CD2417E16792E8A00E4E550 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD2417D16792E8A00E4E550 /* Default-568h@2x.png */; };
+		7CD2418216792E8A00E4E550 /* AFHeroTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2418016792E8A00E4E550 /* AFHeroTest.xcdatamodeld */; };
+		7CD2418516792E8A00E4E550 /* AFHeroTestIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2418416792E8A00E4E550 /* AFHeroTestIncrementalStore.m */; };
+		7CD241951679507A00E4E550 /* TasksVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD241941679507A00E4E550 /* TasksVC.m */; };
+		7CD241A7167975E800E4E550 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD241A6167975E800E4E550 /* Task.m */; };
+		9D14100056D0405184C46DFF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE48C5A9BCAA490796F764A5 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		103956AAB5354BAEB007847B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		37138F56B4A9493A820FB892 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		7CD2415B16792E8900E4E550 /* AFHeroTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFHeroTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD2415F16792E8900E4E550 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7CD2416116792E8900E4E550 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7CD2416316792E8900E4E550 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7CD2416516792E8900E4E550 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7CD2416816792E8A00E4E550 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		7CD2416B16792E8A00E4E550 /* AFHeroTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFHeroTest-Prefix.pch"; sourceTree = "<group>"; };
+		7CD2416D16792E8A00E4E550 /* AFHeroTestAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFHeroTestAPIClient.h; path = Classes/AFHeroTestAPIClient.h; sourceTree = "<group>"; };
+		7CD2416E16792E8A00E4E550 /* AFHeroTestAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AFHeroTestAPIClient.m; path = Classes/AFHeroTestAPIClient.m; sourceTree = "<group>"; };
+		7CD2417016792E8A00E4E550 /* AFHeroTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFHeroTest-Info.plist"; sourceTree = "<group>"; };
+		7CD2417216792E8A00E4E550 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CD2417416792E8A00E4E550 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CD2417616792E8A00E4E550 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CD2417716792E8A00E4E550 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CD2417916792E8A00E4E550 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7CD2417B16792E8A00E4E550 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7CD2417D16792E8A00E4E550 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7CD2418116792E8A00E4E550 /* AFHeroTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AFHeroTest.xcdatamodel; sourceTree = "<group>"; };
+		7CD2418316792E8A00E4E550 /* AFHeroTestIncrementalStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFHeroTestIncrementalStore.h; path = Classes/AFHeroTestIncrementalStore.h; sourceTree = "<group>"; };
+		7CD2418416792E8A00E4E550 /* AFHeroTestIncrementalStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AFHeroTestIncrementalStore.m; path = Classes/AFHeroTestIncrementalStore.m; sourceTree = "<group>"; };
+		7CD241931679507A00E4E550 /* TasksVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TasksVC.h; path = Classes/TasksVC.h; sourceTree = "<group>"; };
+		7CD241941679507A00E4E550 /* TasksVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TasksVC.m; path = Classes/TasksVC.m; sourceTree = "<group>"; };
+		7CD241A5167975E800E4E550 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Task.h; path = Classes/Task.h; sourceTree = "<group>"; };
+		7CD241A6167975E800E4E550 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = Classes/Task.m; sourceTree = "<group>"; };
+		FE48C5A9BCAA490796F764A5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CD2415816792E8900E4E550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD2416016792E8900E4E550 /* UIKit.framework in Frameworks */,
+				7CD2416216792E8900E4E550 /* Foundation.framework in Frameworks */,
+				7CD2416416792E8900E4E550 /* CoreGraphics.framework in Frameworks */,
+				7CD2416616792E8900E4E550 /* CoreData.framework in Frameworks */,
+				9D14100056D0405184C46DFF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CD2415016792E8900E4E550 = {
+			isa = PBXGroup;
+			children = (
+				7CD2416716792E8A00E4E550 /* AFHeroTest */,
+				7CD2415E16792E8900E4E550 /* Frameworks */,
+				7CD2415C16792E8900E4E550 /* Products */,
+				37138F56B4A9493A820FB892 /* Pods.xcconfig */,
+				103956AAB5354BAEB007847B /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		7CD2415C16792E8900E4E550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2415B16792E8900E4E550 /* AFHeroTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CD2415E16792E8900E4E550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2415F16792E8900E4E550 /* UIKit.framework */,
+				7CD2416116792E8900E4E550 /* Foundation.framework */,
+				7CD2416316792E8900E4E550 /* CoreGraphics.framework */,
+				7CD2416516792E8900E4E550 /* CoreData.framework */,
+				FE48C5A9BCAA490796F764A5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CD2416716792E8A00E4E550 /* AFHeroTest */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2416816792E8A00E4E550 /* Podfile */,
+				7CD2417616792E8A00E4E550 /* AppDelegate.h */,
+				7CD2417716792E8A00E4E550 /* AppDelegate.m */,
+				7CD241931679507A00E4E550 /* TasksVC.h */,
+				7CD241941679507A00E4E550 /* TasksVC.m */,
+				7CD241A5167975E800E4E550 /* Task.h */,
+				7CD241A6167975E800E4E550 /* Task.m */,
+				7CD2416C16792E8A00E4E550 /* Networking */,
+				7CD2417F16792E8A00E4E550 /* Models */,
+				7CD2416A16792E8A00E4E550 /* Supporting Files */,
+			);
+			path = AFHeroTest;
+			sourceTree = "<group>";
+		};
+		7CD2416A16792E8A00E4E550 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2416B16792E8A00E4E550 /* AFHeroTest-Prefix.pch */,
+				7CD2417016792E8A00E4E550 /* AFHeroTest-Info.plist */,
+				7CD2417116792E8A00E4E550 /* InfoPlist.strings */,
+				7CD2417416792E8A00E4E550 /* main.m */,
+				7CD2417916792E8A00E4E550 /* Default.png */,
+				7CD2417B16792E8A00E4E550 /* Default@2x.png */,
+				7CD2417D16792E8A00E4E550 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CD2416C16792E8A00E4E550 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2416D16792E8A00E4E550 /* AFHeroTestAPIClient.h */,
+				7CD2416E16792E8A00E4E550 /* AFHeroTestAPIClient.m */,
+				7CD2418316792E8A00E4E550 /* AFHeroTestIncrementalStore.h */,
+				7CD2418416792E8A00E4E550 /* AFHeroTestIncrementalStore.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		7CD2417F16792E8A00E4E550 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2418016792E8A00E4E550 /* AFHeroTest.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CD2415A16792E8900E4E550 /* AFHeroTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD2418816792E8A00E4E550 /* Build configuration list for PBXNativeTarget "AFHeroTest" */;
+			buildPhases = (
+				7CD2415716792E8900E4E550 /* Sources */,
+				7CD2415816792E8900E4E550 /* Frameworks */,
+				7CD2415916792E8900E4E550 /* Resources */,
+				6D1F9084E64645B5AB9F986F /* Copy Pods Resources */,
+				EB46B092104342E3AC020426 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFHeroTest;
+			productName = AFHeroTest;
+			productReference = 7CD2415B16792E8900E4E550 /* AFHeroTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CD2415216792E8900E4E550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = WM;
+			};
+			buildConfigurationList = 7CD2415516792E8900E4E550 /* Build configuration list for PBXProject "AFHeroTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CD2415016792E8900E4E550;
+			productRefGroup = 7CD2415C16792E8900E4E550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CD2415A16792E8900E4E550 /* AFHeroTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CD2415916792E8900E4E550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD2416916792E8A00E4E550 /* Podfile in Resources */,
+				7CD2417316792E8A00E4E550 /* InfoPlist.strings in Resources */,
+				7CD2417A16792E8A00E4E550 /* Default.png in Resources */,
+				7CD2417C16792E8A00E4E550 /* Default@2x.png in Resources */,
+				7CD2417E16792E8A00E4E550 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D1F9084E64645B5AB9F986F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		EB46B092104342E3AC020426 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CD2415716792E8900E4E550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD2416F16792E8A00E4E550 /* AFHeroTestAPIClient.m in Sources */,
+				7CD2417516792E8A00E4E550 /* main.m in Sources */,
+				7CD2417816792E8A00E4E550 /* AppDelegate.m in Sources */,
+				7CD2418216792E8A00E4E550 /* AFHeroTest.xcdatamodeld in Sources */,
+				7CD2418516792E8A00E4E550 /* AFHeroTestIncrementalStore.m in Sources */,
+				7CD241951679507A00E4E550 /* TasksVC.m in Sources */,
+				7CD241A7167975E800E4E550 /* Task.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CD2417116792E8A00E4E550 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CD2417216792E8A00E4E550 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CD2418616792E8A00E4E550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CD2418716792E8A00E4E550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CD2418916792E8A00E4E550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103956AAB5354BAEB007847B /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFHeroTest/AFHeroTest-Prefix.pch";
+				INFOPLIST_FILE = "AFHeroTest/AFHeroTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7CD2418A16792E8A00E4E550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103956AAB5354BAEB007847B /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFHeroTest/AFHeroTest-Prefix.pch";
+				INFOPLIST_FILE = "AFHeroTest/AFHeroTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CD2415516792E8900E4E550 /* Build configuration list for PBXProject "AFHeroTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD2418616792E8A00E4E550 /* Debug */,
+				7CD2418716792E8A00E4E550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CD2418816792E8A00E4E550 /* Build configuration list for PBXNativeTarget "AFHeroTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD2418916792E8A00E4E550 /* Debug */,
+				7CD2418A16792E8A00E4E550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CD2418016792E8A00E4E550 /* AFHeroTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CD2418116792E8A00E4E550 /* AFHeroTest.xcdatamodel */,
+			);
+			currentVersion = 7CD2418116792E8A00E4E550 /* AFHeroTest.xcdatamodel */;
+			path = AFHeroTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CD2415216792E8900E4E550 /* Project object */;
+}

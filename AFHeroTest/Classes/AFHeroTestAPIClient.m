@@ -1,7 +1,7 @@
 #import "AFHeroTestAPIClient.h"
 #import "AFJSONRequestOperation.h"
 
-static NSString * const kAFHeroTestAPIBaseURLString = @"<# API Base URL #>";
+static NSString * const kAFHeroTestAPIBaseURLString = @"http://guarded-harbor-5824.herokuapp.com";
 
 @implementation AFHeroTestAPIClient
 
